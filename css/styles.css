@@ -1,9 +1,120 @@
+
+/* index */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
   --primary-bg-color: #ffffff;
+  --header-logo-color: #000000;
+  --footer-logo-color:#ffffff;
+  --footer-bg-color:#2F303A;
+  --hero-text-color:#ffffff;
+  --doing-title-text-color:#ffffff;
+  --team-bg-color:#F5F4FA;
+  --primary-footer-text-color:#ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --copyright-text-color: rgba(255, 255, 255, 0.4);
 }
+/* *{box-sizing: border-box;} */
 body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  letter-spacing: 0.03em;
 }
+
+/* браузер применяет свои стили к ссылкам, через обращение к тегу,
+ специфичность не работает  */
+a{
+  text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6{
+  color: var(--title-text-color);
+}
+.list{
+  list-style: none;
+}
+/* .header-bar { }*/
+
+a.nav {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.logo {
+font-family: Raleway, sans-serif;;
+font-weight: 700;
+font-size: 26px;
+color: var(--accent-color)
+}
+.studio-logo{
+  color: #000000;
+}
+/* .header-contacts {} */
+.mail, .phone{
+  color: var(--primary-text-color);
+}
+.mail:hover, .mail:focus,
+.phone:hover, .phone:focus {
+color: var(--accent-color);
+}
+/* .hero{} */
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--hero-text-color);
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* .advantages {} */
+.advantages-title, .doing-title{
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.doing-main-title, .team-main-title,
+.clients-main-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+.doing-title {
+color: var(--doing-title-text-color);
+}
+.team{
+background-color: var(--team-bg-color);
+}
+.team-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+.profession {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+.footer{
+  background-color: var(--footer-bg-color);
+}
+.footer .logo{
+  font-size: 22px;
+}
+.footer .studio-logo{
+  color: var(--footer-logo-color);
+}
+.footer .address{
+  color: var();
+}
+--primary-footer-text-color:#ffffff;
+--footer-text-color: rgba(255, 255, 255, 0.6);
+--copyright-text-color: rgba(255, 255, 255, 0.4);
