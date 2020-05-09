@@ -29,6 +29,7 @@ a{
 }
 h1, h2, h3, h4, h5, h6{
   color: var(--title-text-color);
+  font-weight: 700;
 }
 .list{
   list-style: none;
@@ -60,6 +61,7 @@ h1, h2, h3, h4, h5, h6{
 .phone:hover, .phone:focus {
   color: var(--accent-color);
 }
+/* main */
 /* .hero{} */
 .hero-title{
   font-weight: 900;
@@ -71,22 +73,22 @@ h1, h2, h3, h4, h5, h6{
   text-transform: uppercase;
 }
 .button {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
 }
-
 /* .advantages {} */
 .advantages-title, .doing-title{
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .doing-main-title, .team-main-title,
 .clients-main-title{
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -109,6 +111,7 @@ h1, h2, h3, h4, h5, h6{
   line-height: 1.19;
   text-align: center;
 }
+/* footer */
 .footer{
   background-color: var(--footer-bg-color);
 }
@@ -139,4 +142,30 @@ h1, h2, h3, h4, h5, h6{
   line-height: 2;
   text-align: center;
 }
---primary-footer-text-color
+/* portfolio */
+.button-portfolio {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-text-color)
+}
+.button-portfolio:focus, .description {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.category {
+  font-size: 16px;
+  line-height: 1.9;
+}
+.description {
+  font-size: 18px;
+  line-height: 1.56;
+  }
+  /* оформить ccылки с лого после урока по svg */
