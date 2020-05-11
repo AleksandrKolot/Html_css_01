@@ -7,7 +7,7 @@
   --primary-bg-color: #ffffff;
   --header-logo-color: #000000;
   --hero-text-color:#ffffff;
-  --doing-title-text-color:#ffffff;
+  --work-title-text-color:#ffffff;
   --team-bg-color:#F5F4FA;
   --footer-logo-color:#ffffff;
   --footer-bg-color:#2F303A;
@@ -19,7 +19,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   letter-spacing: 0.03em;
@@ -41,7 +41,8 @@ h1, h2, h3, h4, h5, h6{
   line-height: 16px;
   letter-spacing: 0.02em; 
 }
-.accent, .nav:focus {
+.accent, .nav:focus, 
+.nav:hover {
   color: var(--accent-color)
 }
 .logo {
@@ -56,17 +57,19 @@ h1, h2, h3, h4, h5, h6{
 }
 .mail, .phone{
   color: var(--primary-text-color);
+  line-height: 1.14;
 }
 .mail:hover, .mail:focus,
 .phone:hover, .phone:focus {
   color: var(--accent-color);
 }
 /* main */
-/* .hero{} */
+/* .hero{}  заменить цвет текста на белый */
 .hero-title{
   font-weight: 900;
   font-size: 44px;
-  color: var(--hero-text-color);
+  color: var(--accent-color);
+  /* color: var(--hero-text-color); */
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -83,18 +86,20 @@ h1, h2, h3, h4, h5, h6{
   letter-spacing: 0.06em;
 }
 /* .advantages {} */
-.advantages-title, .doing-title{
+.advantages-title, .work-title{
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.doing-main-title, .team-main-title,
+.work-main-title, .team-main-title,
 .clients-main-title{
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
-.doing-title {
-  color: var(--doing-title-text-color);
+.work-title {
+color: var(--accent-color);
+  /* color: var(--work-title-text-color); */
 }
 .team{
   background-color: var(--team-bg-color);
@@ -129,6 +134,7 @@ h1, h2, h3, h4, h5, h6{
 .footer .mail,
 .footer .phone{
   color: var(--footer-text-color);
+  line-height: 1.71;
 }
 .appeal{
   color: var(--primary-footer-text-color);
