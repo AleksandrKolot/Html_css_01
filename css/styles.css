@@ -135,8 +135,10 @@ h1, h2, h3, h4, h5, h6{
 }
 .footer .mail,
 .footer .phone{
+  font-weight: 400;
   color: var(--footer-text-color);
   line-height: 1.71;
+  letter-spacing: 0.03em
 }
 .appeal{
   color: var(--primary-footer-text-color);
